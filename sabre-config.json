@@ -3,7 +3,7 @@
     "port": 25565,
     "opLevel": 4,
     "onlineMode": true,
-    "proxy": "VELOCITY",
+    "proxy": "NONE",
     "velocitySecret": "{secret}",
     "renderDistance": 16,
     "entityDistance": 16,
