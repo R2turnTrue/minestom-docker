@@ -1,2 +1,2 @@
-# minestom-docker
-run minestom in docker
+# sabre-docker
+sabre docker image
