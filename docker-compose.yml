@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  sabre:
+    image: sabre:latest
+    build:
+      context: .
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./extensions:/srv/extensions
+      - ./sabre-config.json:/srv/sabre-config.json
+    stdin_open: true
+    tty: true
