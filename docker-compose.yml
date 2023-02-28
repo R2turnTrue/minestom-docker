@@ -6,7 +6,8 @@ services:
     build:
       context: .
     ports:
-      - "25565:25565"
+      - "25565:25565" # minecraft
+      - "7270:7270" # resourcepack
     volumes:
       - ./extensions:/srv/extensions
       - ./sabre-config.json:/srv/sabre-config.json
